@@ -46,7 +46,7 @@ main {
     height: 200px;
     
 }
-.firstcolumnbuttons ul {
+.buttonscontent ul {
     display: flex;
     width: 100%;
     justify-content: center;
