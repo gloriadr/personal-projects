@@ -13,6 +13,7 @@ header {
 header h1 {
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 main {
     background-color: rgb(243, 183, 183);
@@ -33,26 +34,38 @@ main {
 
 }
 .screen {
+    
     margin-top: 25px;
     margin-bottom: 15px;
     width:280px;
     height: 45px;
     background-color: white;
     border-radius: 3px;
-    box-shadow: rgb(247, 95, 95);
+    border: 2px solid rgb(247, 95, 95);
+    
+}
+.screen p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .allbuttons {
     width: 280px;
     height: 200px;
     
 }
-.buttonscontent ul {
-    display: flex;
+.buttonscontent {
     width: 100%;
-    justify-content: center;
 }
 .buttons {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .buttons tr {
     display: flex;
@@ -80,7 +93,7 @@ main {
     color: rgb(247, 73, 73);
 }
 footer {
-    background-color: rgba(252, 229, 229, 0.267);
+    background-color:  rgba(252, 229, 229, 0.555);
     height: 80px;
     display: flex;
     justify-content: center;
